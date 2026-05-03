@@ -1,0 +1,14 @@
+Metric,Description
+Mentions,Number of times candidate appears
+Views,Total video views
+Likes,Number of likes
+Comments,Number of comments
+Shares,Number of shares (if available)
+Engagement,Likes + Comments (+ Shares if available)
+Engagement Rate,Engagement divided by Views
+Sentiment Score,Positive vs Negative polarity score
+Trend Score,Google search interest over time
+Growth Rate,Change in popularity over time
+Momentum Score,Acceleration of growth over time
+Platform Source,"Source platform (YouTube, Google Trends, etc.)"
+Published Date,Date content was posted
