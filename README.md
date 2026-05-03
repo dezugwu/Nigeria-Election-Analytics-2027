@@ -31,11 +31,39 @@ The goal is to move beyond opinions and media narratives by using data to uncove
 ---
 
 ## 🧱 Project Status
-🚧 In Progress (Day 1 — Project Setup & Planning)
+🚧 In Progress (Day 3 — Data Collection (YouTube))
 
 ---
+
+## 🧱 Data Architecture (Current Design)
+
+The project follows a structured data modeling approach:
+
+### Fact Table
+- Social media activity (views, likes, comments, engagement)
+
+### Dimension Tables
+- Candidates
+- Date
+- Platform
+
+This structure ensures scalability and supports advanced analytics such as trend analysis, growth tracking, and candidate comparison.
+
+---
+
+## 📊 Data Collection (Phase 1)
+
+Initial dataset has been extracted using the YouTube Data API.
+
+The dataset includes:
+- Video titles
+- Views, likes, and comments
+- Published date
+- Candidate association
+
+This forms the first layer of the analytics pipeline.
 
 ## 📌 Next Steps
 - Data extraction using YouTube API
 - Google Trends integration
-- Initial dataset creation
+- Initial dataset creat

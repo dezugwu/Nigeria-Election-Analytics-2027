@@ -34,7 +34,7 @@ Foundation → Structure → Collection → Cleaning → Storage (SQL) → Trans
 
 **Tasks:**  
 - [x] Google Drive + Colab setup  
-- [ ] YouTube API data extraction  
+- [x] YouTube API data extraction  
 - [ ] Google Trends data extraction  
 
 **Expected Outputs:**  
