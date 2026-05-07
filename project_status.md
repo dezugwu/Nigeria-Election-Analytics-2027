@@ -49,12 +49,12 @@ Foundation → Structure → Collection → Cleaning → Storage (SQL) → Trans
 ---
 
 ### 🧱 Phase 5 — Data Storage (SQL)  
-**Status:** ⏳ In Progress  
+**Status:** ✅ Completed  
 
 ---
 
 ### 🧱 Phase 6 — Data Transformation (SQL)  
-**Status:** ⏳ Pending  
+**Status:** 🔄 In Progress   
 
 ---
 

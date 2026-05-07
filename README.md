@@ -105,11 +105,20 @@ This layer ensures the project follows a real-world data pipeline:
 
 **Raw Data → Cleaned Data → Stored Data → Analysis**
 
+## 📊 Analytical Views
+
+SQL views were created to transform raw data into analytical insights:
+
+- vw_candidate_engagement
+- vw_candidate_trends
+- vw_candidate_popularity
+
+These views serve as the foundation for downstream analysis and dashboarding.
+
 ---
 
 ## 📌 Next Steps
-- Load datasets into SQL database (SQLite)
-- Perform SQL-based transformations and aggregations
+
 - Build Power BI data model
 - Develop interactive dashboard
 - Generate insights and candidate rankings
