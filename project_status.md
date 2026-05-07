@@ -30,12 +30,12 @@ Foundation → Structure → Collection → Cleaning → Storage (SQL) → Trans
 ---
 
 ### 🧱 Phase 3 — Data Collection  
-**Status:** 🔄 In Progress  
+**Status:** ✅ Completed  
 
 **Tasks:**  
 - [x] Google Drive + Colab setup  
 - [x] YouTube API data extraction  
-- [ ] Google Trends data extraction  
+- [x] Google Trends data extraction  
 
 **Expected Outputs:**  
 - data/raw/youtube_raw.csv  
@@ -44,12 +44,12 @@ Foundation → Structure → Collection → Cleaning → Storage (SQL) → Trans
 ---
 
 ### 🧱 Phase 4 — Data Cleaning & Transformation  
-**Status:** ⏳ Pending  
+**Status:** ✅ Completed  
 
 ---
 
 ### 🧱 Phase 5 — Data Storage (SQL)  
-**Status:** ⏳ Pending  
+**Status:** ⏳ In Progress  
 
 ---
 
