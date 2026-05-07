@@ -87,6 +87,19 @@ Data is stored in a SQLite database to enable structured querying and efficient 
 ### Tables:
 - `fact_social_media` → YouTube engagement dataset  
 - `fact_trends` → Google Trends dataset  
+---
+
+## 🧮 Sample SQL Query
+
+Example query used to aggregate candidate engagement:
+
+```sql
+SELECT 
+    candidate_name,
+    SUM(views) AS total_views,
+    SUM(engagement) AS total_engagement
+FROM fact_social_media
+GROUP BY candidate_name;
 
 This layer ensures the project follows a real-world data pipeline:
 
