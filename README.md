@@ -115,6 +115,15 @@ SQL views were created to transform raw data into analytical insights:
 
 These views serve as the foundation for downstream analysis and dashboarding.
 
+## 📈 Popularity Model
+
+A composite popularity score was developed using:
+
+- Engagement Rate (YouTube)
+- Search Interest (Google Trends)
+
+This enables ranking candidates based on both attention and public interest.
+
 ---
 
 ## 📌 Next Steps

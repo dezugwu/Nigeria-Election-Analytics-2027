@@ -54,12 +54,12 @@ Foundation → Structure → Collection → Cleaning → Storage (SQL) → Trans
 ---
 
 ### 🧱 Phase 6 — Data Transformation (SQL)  
-**Status:** 🔄 In Progress   
+**Status:** ✅ Completed   
 
 ---
 
 ### 🧱 Phase 7 — Data Modeling (Power BI)  
-**Status:** ⏳ Pending  
+**Status:** 🔄 In Progress
 
 ---
 
