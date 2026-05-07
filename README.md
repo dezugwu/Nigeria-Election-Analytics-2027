@@ -16,7 +16,7 @@ The goal is to move beyond opinions and media narratives by using data to uncove
 
 ---
 
-## 📊 Data Sources (Phase 1)
+## 📊 Data Sources
 - YouTube (video engagement data)
 - Google Trends (search interest)
 
@@ -24,46 +24,79 @@ The goal is to move beyond opinions and media narratives by using data to uncove
 
 ## ⚙️ Tools & Technologies
 - Python (data extraction & processing)
+- SQL (SQLite for data storage & querying)
 - Power BI (data visualization)
 - APIs (YouTube Data API)
-- Pytrends (Google Trends)
+- Google Trends (manual export + processing)
 
 ---
 
 ## 🧱 Project Status
-🚧 In Progress (Day 3 — Data Collection (YouTube))
+🚧 In Progress (Day 4 — Multi-Source Data Integration Completed)
 
 ---
 
-## 🧱 Data Architecture (Current Design)
+## 🧱 Data Architecture
 
 The project follows a structured data modeling approach:
 
-### Fact Table
-- Social media activity (views, likes, comments, engagement)
+### Fact Tables
+- `fact_social_media` → Social media engagement data (YouTube)
+- `fact_trends` → Search interest data (Google Trends)
 
 ### Dimension Tables
-- Candidates
-- Date
-- Platform
+- `dim_candidates`
+- `dim_date`
+- `dim_platform`
 
 This structure ensures scalability and supports advanced analytics such as trend analysis, growth tracking, and candidate comparison.
 
 ---
 
-## 📊 Data Collection (Phase 1)
+## 📊 Data Collection
 
-Initial dataset has been extracted using the YouTube Data API.
+Datasets have been extracted from multiple sources:
 
-The dataset includes:
+### YouTube Data
 - Video titles
-- Views, likes, and comments
+- Views, likes, comments
+- Engagement metrics
 - Published date
-- Candidate association
 
-This forms the first layer of the analytics pipeline.
+### Google Trends Data
+- Search interest over time
+- Candidate-level trend scores
+- Nigeria-specific filtering
+
+---
+
+## 🧹 Data Cleaning & Transformation
+
+- Removed duplicates and handled missing values  
+- Converted date fields to proper datetime formats  
+- Engineered new features (year, month, engagement rate)  
+- Restructured Google Trends data (wide → long format)  
+- Standardized schema across datasets for integration  
+
+---
+
+## 🗄️ Data Storage Layer
+
+Data is stored in a SQLite database to enable structured querying and efficient data handling.
+
+### Tables:
+- `fact_social_media` → YouTube engagement dataset  
+- `fact_trends` → Google Trends dataset  
+
+This layer ensures the project follows a real-world data pipeline:
+
+**Raw Data → Cleaned Data → Stored Data → Analysis**
+
+---
 
 ## 📌 Next Steps
-- Data extraction using YouTube API
-- Google Trends integration
-- Initial dataset creat
+- Load datasets into SQL database (SQLite)
+- Perform SQL-based transformations and aggregations
+- Build Power BI data model
+- Develop interactive dashboard
+- Generate insights and candidate rankings
